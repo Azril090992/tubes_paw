@@ -1,0 +1,3 @@
+Table: cafes | Column: owner_id | Constraint: cafes_owner_id_foreign | Ref Table: users
+Table: categories | Column: cafe_id | Constraint: menu_categories_cafe_id_foreign | Ref Table: cafes
+Table: menus | Column: cafe_id | Constraint: menus_cafe_id_foreign | Ref Table: cafes
