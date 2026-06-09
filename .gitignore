@@ -16,6 +16,8 @@
 /public/build
 /public/hot
 /public/storage
+!public/storage/cafe_photos/
+!public/storage/cafe_photos/**
 /storage/*.key
 /storage/pail
 /vendor
